@@ -1,19 +1,22 @@
-<!DOCTYPE html>
+@extends('layouts.app')
 
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-        <h1>Birdboard</h1>
+@section('content')
+    <header class="flex items-end mb-3 py-4" >
 
-    <ul>
+        <div class="flex justify-between items-center w-full">
+            <h2 class="text-grey text-sm font-normal">My Projects</h2>
+            <a href="/projects/create" class="button">New Project</a>
+        </div>
+    </header>
+
+    <main class="lg:flex lg:flex-wrap -mx-3">
         @forelse($projects as $project)
-                <a href="{{$project->path()}}"><li>{{$project->title}}</li></a>
+            <div class="lg:w-1/3 px-3 pb-6">
+                @include('projects.card')
+            </div>
         @empty
-            <li>No projects yet.</li>
+            <div>No projects yet.</div>
         @endforelse
+    </main>
 
-    </ul>
-    </body>
-</html>
+ @endsection
