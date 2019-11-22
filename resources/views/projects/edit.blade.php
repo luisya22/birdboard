@@ -3,11 +3,13 @@
 @section('content')
 
     <div class="lg:w-1/2 lg:mx-auto bg-white p-6 md:py-12 md:px-16 rounded shadow">
-        <form method="POST" action="/projects">
-            <h1 class="heading is-1">Let's start something new</h1>
+        <form method="POST" action="{{$project->path()}}">
+            @method('PATCH')
+
+            <h1 class="heading is-1">Edit Your Project</h1>
+
             @include('projects.form', [
-            'project' => new App\Project,
-            'buttonText' => 'Create Project'
+                'buttonText' => 'Update Project'
             ])
         </form>
     </div>
