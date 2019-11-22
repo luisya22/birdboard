@@ -18,16 +18,45 @@
                 <div class="mb-8">
                     <h2 class="text-lg text-grey font-normal mb-3">Tasks</h2>
     {{--                tasks--}}
-                    <div class="card mb-3">Lorem ipsum</div>
-                    <div class="card mb-3">Lorem ipsum</div>
-                    <div class="card mb-3">Lorem ipsum</div>
-                    <div class="card">Lorem ipsum</div>
+                    @foreach($project->tasks as $task)
+                        <div class="card mb-3">
+
+                            <form method="POST" action="{{$task->path()}}">
+                                @csrf
+                                @method('PATCH')
+
+                                <div class="flex">
+                                    <input class="w-full {{$task->completed ? 'text-grey' : ''}}" name="body" value="{{$task->body}}">
+                                    <input type="checkbox" name="completed" onchange="this.form.submit()" {{$task->completed ? 'checked' : ''}}>
+                                </div>
+                            </form>
+                        </div>
+                    @endforeach
+
+                    <div class="card mb-3">
+                        <form method="POST" action="{{$project->path() . '/tasks'}}">
+                            @csrf
+                            <input class="w-full" type="text" placeholder="Add a new task..." name="body">
+                        </form>
+                    </div>
+
                 </div>
 
                 <div>
                     <h2 class="text-lg text-grey font-normal mb-3">General Notes</h2>
                     {{--                General notes--}}
-                    <textarea class="card w-full" style="min-height: 200px">Lorem ipsum</textarea>
+                    <form method="POST" action="{{$project->path()}}">
+                        @csrf
+                        @method('PATCH')
+                        <textarea
+                            name="notes"
+                            class="card w-full mb-4"
+                            style="min-height: 200px"
+                            placeholder="Anything specia that you want to make a note of?"
+                        >{{$project->notes}}</textarea>
+
+                        <button type="submit" class="button">Save</button>
+                    </form>
                 </div>
 
             </div>

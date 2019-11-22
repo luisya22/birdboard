@@ -13,15 +13,18 @@ class CreateProjectsTable extends Migration
      */
     public function up()
     {
-        Schema::create('projects', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->unsignedBigInteger('owner_id');
-            $table->string('title');
-            $table->text('description');
-            $table->timestamps();
+        if(!Schema::hasTable('projects')){
+            Schema::create('projects', function (Blueprint $table) {
+                $table->bigIncrements('id');
+                $table->unsignedBigInteger('owner_id');
+                $table->string('title');
+                $table->text('description');
+                $table->text('notes')->nullable();
+                $table->timestamps();
 
-            $table->foreign('owner_id')->references('id')->on('users')->onDelete('cascade');
-        });
+                $table->foreign('owner_id')->references('id')->on('users')->onDelete('cascade');
+            });
+        }
     }
 
     /**
