@@ -62,6 +62,8 @@ class ManageProjectsTest extends TestCase
     /** @test */
     function a_user_can_update_a_project(){
 
+        $this->withoutExceptionHandling();
+
 
         $project = app(ProjectFactory::class)->create();
 
@@ -78,6 +80,7 @@ class ManageProjectsTest extends TestCase
     /** @test */
     function a_user_can_update_a_project_general_notes(){
 
+        $this->withoutExceptionHandling();
 
         $project = app(ProjectFactory::class)->create();
 
