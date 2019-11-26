@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="444c0f23-b82a-4771-8ddd-7c902fb6df98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/RecordActivity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Activity.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Activity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Observers/ProjectObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/ProjectObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Observers/TaskObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/TaskObserver.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_22_162610_create_activities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_22_162610_create_activities_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/TriggerActivityTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/TriggerActivityTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +189,7 @@
       <workItem from="1574434453719" duration="4785000" />
       <workItem from="1574461923948" duration="966000" />
       <workItem from="1574614559845" duration="11087000" />
-      <workItem from="1574794774378" duration="5107000" />
+      <workItem from="1574794774378" duration="10386000" />
     </task>
     <task id="LOCAL-00001" summary="Until Episode 4">
       <created>1573844989739</created>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574627045872</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Activities changes">
+      <created>1574799904718</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574799904718</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +251,7 @@
     <MESSAGE value="Until Episode 11" />
     <MESSAGE value="Merge branch 'master' of https://github.com/luisya22/birdboard&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="Activity Feed frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Activity Feed frontend" />
+    <MESSAGE value="Activities changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activities changes" />
   </component>
 </project>

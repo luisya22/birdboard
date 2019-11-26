@@ -4,14 +4,20 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Activity;
+use Illuminate\Support\Arr;
 
 class Task extends Model
 {
+    use RecordActivity;
+
     protected $guarded = [];
 
     protected $casts = [
         'completed' => 'boolean'
     ];
+
+    protected static $recordableEvents = ['created', 'deleted'];
+
 
 //    protected static function boot(){
 //        parent::boot();
@@ -58,15 +64,4 @@ class Task extends Model
 
     }
 
-    public function activity(){
-        return $this->morphMany(Activity::class, 'subject')->latest();
-    }
-
-    public function recordActivity($description)
-    {
-        $this->activity()->create([
-            'project_id' => $this->project_id,
-            'description' => $description
-        ]);
-    }
 }
