@@ -52,7 +52,7 @@
                             name="notes"
                             class="card w-full mb-4"
                             style="min-height: 200px"
-                            placeholder="Anything specia that you want to make a note of?"
+                            placeholder="Anything special that you want to make a note of?"
                         >{{$project->notes}}</textarea>
 
                         <button type="submit" class="button">Save</button>

@@ -2,11 +2,11 @@
 
 @section('content')
 
-    <div class="lg:w-1/2 lg:mx-auto bg-white p-6 md:py-12 md:px-16 rounded shadow">
+    <div class="lg:w-1/2 lg:mx-auto bg-white py-12 px-16 rounded shadow">
         <form method="POST" action="{{$project->path()}}">
             @method('PATCH')
 
-            <h1 class="heading is-1">Edit Your Project</h1>
+            <h1 class="tet-2xl font-normal mb-10 text-center">Edit Your Project</h1>
 
             @include('projects.form', [
                 'buttonText' => 'Update Project'
