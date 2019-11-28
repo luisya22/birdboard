@@ -2,26 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="444c0f23-b82a-4771-8ddd-7c902fb6df98" name="Default Changelist" comment="Activities changes">
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ActivityTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_11_28_145513_create_project_members_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/InvitationsTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Activity.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Activity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/RecordActivity.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/RecordActivity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_22_162610_create_activities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_22_162610_create_activities_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/activity/completed_task.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/activity/completed_task.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/activity/created_project.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/activity/created_project.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/activity/created_task.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/activity/created_task.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/activity/incompleted_task.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/activity/incompleted_task.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/activity/updated_project.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/activity/updated_project.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/card.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Policies/ProjectPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/ProjectPolicy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/projects/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ProjectTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ProjectTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/UserTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,6 +198,7 @@
       <workItem from="1574614559845" duration="11087000" />
       <workItem from="1574794774378" duration="10574000" />
       <workItem from="1574860461501" duration="8327000" />
+      <workItem from="1574951429302" duration="9897000" />
     </task>
     <task id="LOCAL-00001" summary="Until Episode 4">
       <created>1573844989739</created>

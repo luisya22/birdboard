@@ -60,6 +60,15 @@ class ManageProjectsTest extends TestCase
     }
 
     /** @test */
+    function a_user_can_see_all_projects_they_have_been_invited_to_on_their_dashboard(){
+
+        $project = tap(app(ProjectFactory::class)->create())->invite($this->signIn());
+
+
+        $this->get('/projects')->assertsee($project->title);
+    }
+
+    /** @test */
     function unathorized_cannot_delete_a_project(){
 
         $project = app(ProjectFactory::class)->create();
