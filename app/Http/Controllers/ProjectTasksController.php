@@ -26,6 +26,8 @@ class ProjectTasksController extends Controller
             abort(403);
         }
 
+        $this->authorize('update', $project);
+
         $task->update(request()->validate(['body' => 'required']));
 
         request('completed') ? $task->complete() : $task->incomplete();
