@@ -35,7 +35,10 @@ class ProjectsController extends Controller
         $project = auth()->user()->projects()->create($attributes);
 
         if($tasks = request('tasks')){
-            $project->addTasks(request('tasks'));
+            foreach(request('tasks') as $task){
+                $project->addTask($task['body']);
+            }
+//            $project->addTasks(request('tasks'));
         }
 
         if(request()->wantsJson()){

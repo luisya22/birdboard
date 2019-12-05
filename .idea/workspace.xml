@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="444c0f23-b82a-4771-8ddd-7c902fb6df98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/NewProjectModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/BirdboardForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ThemeSwitcher.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/themes/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/themes/dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/themes/light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/themes/light.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/NewProjectModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/NewProjectModal.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -218,7 +205,7 @@
       <workItem from="1575469438930" duration="6264000" />
       <workItem from="1575479286074" duration="1038000" />
       <workItem from="1575485487886" duration="8880000" />
-      <workItem from="1575556143875" duration="4073000" />
+      <workItem from="1575556143875" duration="12286000" />
     </task>
     <task id="LOCAL-00001" summary="Until Episode 4">
       <created>1573844989739</created>
@@ -283,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575475687751</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Create Project Modal">
+      <created>1575560354199</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575560354199</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +305,7 @@
     <MESSAGE value="Activities changes" />
     <MESSAGE value="Invite others users to become project members" />
     <MESSAGE value="Light and Dark Mode &amp;&amp; Invite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Light and Dark Mode &amp;&amp; Invite" />
+    <MESSAGE value="Create Project Modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Project Modal" />
   </component>
 </project>

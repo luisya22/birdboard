@@ -62,6 +62,8 @@ class ManageProjectsTest extends TestCase
     /** @test */
     function tasks_can_be_included_as_part_a_new_project_creation(){
 
+        $this->withoutExceptionHandling();
+
         $this->signIn();
 
         $attributes = factory(Project::class)->raw();
