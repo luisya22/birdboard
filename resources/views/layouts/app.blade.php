@@ -19,7 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body class=" theme-dark bg-page">
+<body class=" theme-light bg-page">
     <div id="app">
         <nav class="bg-header">
             <div class="container mx-auto">
@@ -49,20 +49,23 @@
                     <div >
 
                         <!-- Right Side Of Navbar -->
-                        <ul class="navbar-nav ml-auto">
+                        <div class="navbar-nav ml-auto">
                             <!-- Authentication Links -->
                             @guest
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                                </li>
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 @if (Route::has('register'))
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                    </li>
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 @endif
                             @else
-                                <li class="nav-item dropdown">
-                                    <a id="navbarDropdown" class="flex items-center text-default no-underline text-sm" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+
+                                <div class="nav-item flex items-center">
+
+                                    <theme-switcher></theme-switcher>
+
+                                    <img src="{{gravatar_url(auth()->user()->email)}}"
+                                         alt="{{auth()->user()->name}} avatar"
+                                         class="rounded-full w-8 mr-2"/>
+                                    <a id="navbarDropdown" class="flex items-center text-default no-underline text-sm mr-6" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                         {{ Auth::user()->name }} <span class="caret"></span>
                                     </a>
 
@@ -77,9 +80,9 @@
                                             @csrf
                                         </form>
                                     </div>
-                                </li>
+                                </div>
                             @endguest
-                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>

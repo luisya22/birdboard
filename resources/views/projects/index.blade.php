@@ -5,7 +5,7 @@
 
         <div class="flex justify-between items-center w-full">
             <h2 class="text-muted text-base font-light">My Projects</h2>
-            <a href="/projects/create" class="button">New Project</a>
+            <a href="/projects/create" @click.prevent="$modal.show('new-project')" class="button" style="cursor: pointer">New Project</a>
         </div>
     </header>
 
@@ -18,5 +18,7 @@
             <div>No projects yet.</div>
         @endforelse
     </main>
+
+    <new-project-modal></new-project-modal>
 
  @endsection

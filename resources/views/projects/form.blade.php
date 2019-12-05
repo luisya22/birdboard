@@ -29,7 +29,7 @@
 <div class="field">
     <div class="control">
         <button type="submit" class="button is-link">{{$buttonText}}</button>
-        <a href="{{$project->path()}}" class="text-default">Cancel</a>
+        <a href="{{$project->path()}}" class="text-default no-underline">Cancel</a>
     </div>
 </div>
 
