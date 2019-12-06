@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="444c0f23-b82a-4771-8ddd-7c902fb6df98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/BirdboardForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Dropdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/components/dropdown.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/NewProjectModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/NewProjectModal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/BirdboardForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/BirdboardForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +152,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/sass/components" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -205,7 +213,8 @@
       <workItem from="1575469438930" duration="6264000" />
       <workItem from="1575479286074" duration="1038000" />
       <workItem from="1575485487886" duration="8880000" />
-      <workItem from="1575556143875" duration="12286000" />
+      <workItem from="1575556143875" duration="15799000" />
+      <workItem from="1575663968849" duration="6921000" />
     </task>
     <task id="LOCAL-00001" summary="Until Episode 4">
       <created>1573844989739</created>
@@ -277,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575560354199</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Form">
+      <created>1575578628170</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575578628170</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +322,7 @@
     <MESSAGE value="Invite others users to become project members" />
     <MESSAGE value="Light and Dark Mode &amp;&amp; Invite" />
     <MESSAGE value="Create Project Modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Project Modal" />
+    <MESSAGE value="Form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form" />
   </component>
 </project>
